@@ -1,0 +1,210 @@
+{
+    "Header.Item1": "About me",
+    "Header.Item2": "Experience",
+    "Header.Item3": "Projects",
+    "Header.Item4": "Certifications",
+    "Header.Item5": "Contact",
+    "Header.cvBtn": "Resume",
+    "Header.cvName": "M Usman_CV.pdf",
+    "Banner.Pretitle": "Hello! My name is",
+    "Banner.Description": "I have <span class='underline'>2 years of experience</span> developing systems, interfaces, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular, Dot net Core and SQL</span> and sometimes in <span class='underline'>React</span> applying good practices and development standards.",
+    "Banner.ActionBtn": "Get in touch",
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        "In my <span class='underline'>2 years as a developer</span>, I seek to train every day. I have worked writing <span class='underline'>Angular</span>, <span class='underline'>Dot net Core</span>, and covering Fullstack developer roles with <span class='underline'>Angular, Dot Net Core and Sql</span>.",
+        "My skills also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I'm working on.",
+        "Some of the technologies that I have trained and worked on include (but are not limited to):"
+    ],
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [
+        {
+            "Tab": "eSoftage",
+            "Title": "Full Stack Developer (Angular + ASP.NET Core)",
+            "Date": "01-03-2024 to Present",
+            "Description": [
+                "Bizmate ERP (under developed U.S client Software):",
+                "Technology Used and Role: Angular, ASP.NET Core, Kendo UI, Angular Material, HTML, CSS, Bootstrap",
+                "Making frontend view in Angular using above mentioned technologies",
+                "Making API integrations in Angular with ASP.NET backend",
+                "",
+                "eSoftage web (eSoftage portfolio website):",
+                "Technology Used and Role: Angular, ASP.NET Core, Angular Material, HTML, CSS, Bootstrap",
+                "Made changes in frontend view in Angular using above mentioned frameworks",
+                "Added few new features using above mentioned technologies"
+            ]
+        },
+        {
+            "Tab": "Softaxe",
+            "Title": "Full Stack Developer (Angular + ASP.NET Core)",
+            "Date": "01-05-2023 to 29-02-2024",
+            "Description": [
+                "Softaxe ERP Software (completely developed ERP software):",
+                "Technology Used and Role: Angular, ASP.NET Core, Angular Material, ngPrime, HTML, CSS, Bootstrap",
+                "Made frontend view in Angular using above mentioned technologies",
+                "Made frontend view in Angular at pos.softaxe.com:555",
+                "Making API in ASP.NET Core of Softaxe ERP",
+                "Reports: Made reports using Dev Express",
+                "Made stored procedures for reports in SQL Server",
+                "",
+                "Business Portfolio Site (https://www.softaxe.com):",
+                "Technology Used and Role: Angular, Angular Material, HTML, CSS, Bootstrap",
+                "Made changes in portfolio site of Softaxe using above mentioned technologies",
+                "",
+                "Travel Agency web (https://sleepy-engelbart-ab1a31.netlify.app/):",
+                "Made this website in collaboration with Ammar Younus (my fellow)",
+                "Used similar technologies as in above projects"
+            ]
+        }
+    ],
+    "FeatureProjects.Title": "Projects that I was a part of",
+    "FeatureProjects.Projects": [
+        {
+            "Title": "Bizmate ERP",
+            "Description": "A comprehensive ERP solution under development. This project involves creating robust frontend interfaces and seamless API integrations to enhance business operations.",
+            "imgs": [
+                "assets/images/Bizmate/img1.PNG",
+                "assets/images/Bizmate/img2.PNG"
+            ],
+            "Technologies": [
+                "Angular",
+                "ASP.NET Core",
+                "Kendo UI",
+                "Angular Material",
+                "SCSS",
+                "Bootstrap"
+            ]
+        },
+        {
+            "Title": "Softaxe ERP Software",
+            "Description": "A fully developed ERP software that streamlines various business processes, from inventory management to customer relations. Includes extensive reporting features and backend optimizations.",
+            "imgs": [
+                "../../assets/images/Softaxe/img1.PNG",
+                "../../assets/images/Softaxe/img2.PNG"
+            ],
+            "Technologies": [
+                "Angular",
+                "ASP.NET Core",
+                "Angular Material",
+                "Bootstrap",
+                "Dev Express",
+                "SQL Server"
+            ]
+        },
+        {
+            "Title": "Business Portfolio Site",
+            "Description": "A professional portfolio site for Softaxe, designed to showcase the company's projects and achievements. The site is optimized for performance and responsiveness.",
+            "imgs": [
+                "assets/images/bbm/image1.png",
+                "assets/images/bbm/image2.png"
+            ],
+            "Technologies": [
+                "Angular",
+                "Angular Material",
+                "HTML",
+                "CSS",
+                "Bootstrap"
+            ]
+        },
+        {
+            "Title": "Travel Agency Web",
+            "Description": "A dynamic travel agency website that provides users with detailed travel packages and booking options. Developed with a focus on user experience and modern web standards.",
+            "imgs": [
+                "../../assets/images/travel/img1.PNG",
+                "../../assets/images/travel/img2.PNG"
+            ],
+            "Technologies": [
+                "Angular",
+                "ASP.NET Core",
+                "Angular Material",
+                "HTML",
+                "CSS",
+                "Bootstrap"
+            ]
+        }
+    ],
+    "OtherProjects.Title": "More personal projects",
+    "OtherProjects.Projects": [
+        {
+            "Title": "E-COMMERCE WEBSITE",
+            "Description": "Made frontend view using Angular Material, HTML, CSS, Bootstrap. Implemented Payment method, Integrations with backend, Added authentication pages with backend integrations.",
+            "ghLink": " https://github.com/Usman78625/E-Commerece.git",
+            "Technologies": [
+                "Angular Material",
+                "HTML",
+                "CSS",
+                "Bootstrap"
+            ]
+        },
+        {
+            "Title": "Library Management",
+            "Description": "Used Angular Material, Tailwind CSS, HTML, CSS, Bootstrap. Implemented integrations with backend.",
+            "ghLink": " https://github.com/Usman78625/E-Commerece.git",
+            "Technologies": [
+                "Angular Material",
+                "Tailwind CSS",
+                "HTML",
+                "CSS",
+                "Bootstrap"
+            ]
+        },
+        {
+            "Title": "Qoute App",
+            "Description": "A single page Qoute app that has a minimal design, it genrates Qoutes on user interaction.",
+            "ghLink": "https://github.com/Usman78625/Qoute-web.git",
+            "Technologies": [
+                "React",
+                "SASS",
+                "TypeScript",
+                "API",
+                "3rd Party Library"
+            ]
+        },
+        {
+            "Title": "Tracking Web Application",
+            "Description": "Made authentication pages, made integrations with PHP Laravel backend.",
+            "Technologies": [
+                "Angular Material",
+                "HTML",
+                "CSS",
+                "PHP Laravel"
+            ]
+        }
+    ],
+    "Certifications.Title": "Certifications",
+    "Certifications.Items": [
+        {
+            "Title": "Certified Angular Developer",
+            "Institute": "Data Flair",
+            "Description": "A comprehensive course covering advanced Angular topics and best practices.",
+            "CertificatePath": "assets/images/certificates/angular_cert.png"
+        },
+        {
+            "Title": "Certified Web Developer",
+            "Institute": "Data Flair",
+            "Description": "An intensive program focusing on full-stack development with hands-on projects.",
+            "CertificatePath": "assets/images/certificates/web_dev_cert.png"
+        },
+        {
+            "Title": "Certified HTML & CSS Developer",
+            "Institute": "Data Flair",
+            "Description": "A course dedicated to mastering HTML and CSS for modern web development.",
+            "CertificatePath": "assets/images/certificates/html_css_cert.png"
+        },
+        {
+            "Title": "Certified JavaScript Developer",
+            "Institute": "Data Flair",
+            "Description": "A detailed course on JavaScript, covering ES6+ features and best practices.",
+            "CertificatePath": "assets/images/certificates/js_cert.png"
+        },
+        {
+            "Title": "Certified C# Developer",
+            "Institute": "Data Flair",
+            "Description": "An in-depth course on C# programming and .NET development.",
+            "CertificatePath": "assets/images/certificates/csharp_cert.png"
+        }
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+    "Contact.Btn": "Say Hello"
+}

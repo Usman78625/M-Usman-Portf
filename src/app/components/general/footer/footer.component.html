@@ -1,0 +1,73 @@
+<footer>
+    <div [@animateFooter]>
+        <ul class="footer-left-bar d-none d-md-block">
+            <li>
+                <a (click)="analyticsService.sendAnalyticEvent('click_gmail', 'footer', 'gmail')" href="mailto:usman30744@gmail.com" target="_blank">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)="analyticsService.sendAnalyticEvent('click_linkedin', 'footer', 'linkedin')" href="https://www.linkedin.com/in/m-usman-8bbbb727a/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)="analyticsService.sendAnalyticEvent('click_github', 'footer', 'github')" href="https://github.com/Usman78625?tab=repositories" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)="analyticsService.sendAnalyticEvent('click_facebook', 'footer', 'facebook')" href="https://www.facebook.com/itxusman.usman.5?mibextid=ZbWKwL" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+          
+        </ul>
+    </div>
+
+    <!-- Icons and contact for small screens -->
+    <div class="footer-small-screen d-md-none">
+        <ul class="footer-icons">
+            <li>
+                <a (click)="analyticsService.sendAnalyticEvent('click_gmail', 'footer', 'gmail')" href="mailto:usman30744@gmail.com" target="_blank">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)="analyticsService.sendAnalyticEvent('click_linkedin', 'footer', 'linkedin')" href="https://www.linkedin.com/in/m-usman-8bbbb727a/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)="analyticsService.sendAnalyticEvent('click_github', 'footer', 'github')" href="https://github.com/Usman78625?tab=repositories" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)="analyticsService.sendAnalyticEvent('click_facebook', 'footer', 'facebook')" href="https://www.facebook.com/itxusman.usman.5?mibextid=ZbWKwL" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="footer-contact">
+            <a (click)="analyticsService.sendAnalyticEvent('click_contact_number', 'footer', 'phone')" href="tel:+1234567890" target="_blank">+923074453960</a>
+        </div>
+    </div>
+
+    <div class="footer-credits text-center">
+        <a (click)="analyticsService.sendAnalyticEvent('click_github_portfolio', 'footer', 'click')" href="https://github.com/Usman78625?tab=repositories" target="_blank" rel="nofollow noopener noreferrer">
+            <!-- <div>Built with Angular by Usman</div> -->
+        </a>
+    </div>
+
+    <!-- Contact for large screens -->
+    <div class="footer-right-bar d-none d-md-block">
+        <a (click)="analyticsService.sendAnalyticEvent('click_contact_number', 'footer', 'phone')" href="tel:+923074453960" target="_blank">+923074453960</a>
+      
+    </div>
+    <div style="display: flex;justify-content: center;align-items: center; margin-bottom: 10px;font-size: large;">
+        <p class="ng-tns-c120-1">Built with Angular by Usman</p>
+    </div>
+</footer>
+
+<!-- <div _ngcontent-uno-c120="" class="ng-tns-c120-1">Built with Angular by Usman</div> -->
