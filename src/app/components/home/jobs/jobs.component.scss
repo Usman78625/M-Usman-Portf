@@ -133,3 +133,31 @@
         }
     }
 }
+
+.jobs .jobs-tabs {
+    display: flex;
+  
+    ul {
+      display: block;
+      width: 114.33px;
+      border: none;
+    }
+  
+    li {
+      border-left: 2px solid $LightestNavy;
+      margin-bottom: 20px; /* Add some space between logos */
+    }
+  
+    /* Set a square container for the logos */
+    .job-logo {
+    //   width: 100%; 
+      height: auto; /* Keep the aspect ratio */
+      max-width: 90px; /* Control the maximum size of the logo */
+      max-height: 60px;
+      object-fit: contain; /* Ensure the entire logo fits within the square */
+      border-radius: 0; /* Remove any border-radius to keep logos square */
+    }
+  }
+  
+  
+

@@ -17,47 +17,98 @@
     ],
     "Experience.Title": "Experience",
     "Experience.Jobs": [
-        {
-            "Tab": "eSoftage",
-            "Title": "Full Stack Developer (Angular + ASP.NET Core)",
-            "Date": "01-03-2024 to Present",
-            "Description": [
-                "Bizmate ERP (under developed U.S client Software):",
-                "Technology Used and Role: Angular, ASP.NET Core, Kendo UI, Angular Material, HTML, CSS, Bootstrap",
-                "Making frontend view in Angular using above mentioned technologies",
-                "Making API integrations in Angular with ASP.NET backend",
-                "",
-                "eSoftage web (eSoftage portfolio website):",
-                "Technology Used and Role: Angular, ASP.NET Core, Angular Material, HTML, CSS, Bootstrap",
-                "Made changes in frontend view in Angular using above mentioned frameworks",
-                "Added few new features using above mentioned technologies"
-            ]
-        },
-        {
-            "Tab": "Softaxe",
-            "Title": "Full Stack Developer (Angular + ASP.NET Core)",
-            "Date": "01-05-2023 to 29-02-2024",
-            "Description": [
-                "Softaxe ERP Software (completely developed ERP software):",
-                "Technology Used and Role: Angular, ASP.NET Core, Angular Material, ngPrime, HTML, CSS, Bootstrap",
-                "Made frontend view in Angular using above mentioned technologies",
-                "Made frontend view in Angular at pos.softaxe.com:555",
-                "Making API in ASP.NET Core of Softaxe ERP",
-                "Reports: Made reports using Dev Express",
-                "Made stored procedures for reports in SQL Server",
-                "",
-                "Business Portfolio Site (https://www.softaxe.com):",
-                "Technology Used and Role: Angular, Angular Material, HTML, CSS, Bootstrap",
-                "Made changes in portfolio site of Softaxe using above mentioned technologies",
-                "",
-                "Travel Agency web (https://sleepy-engelbart-ab1a31.netlify.app/):",
-                "Made this website in collaboration with Ammar Younus (my fellow)",
-                "Used similar technologies as in above projects"
-            ]
-        }
-    ],
+    {
+        "Tab": "Iskaan",
+        "Title": "Angular Developer",
+        "Date": "01-08-2024 to Present",
+        "Logo": "assets/logos/iskaan-log.PNG",
+        "Website": "https://www.iskaan.com", 
+        "Description": [
+            "Working on CRM, Property Management, Owner Portal, and Tenant Portal projects.",
+            "Technology Used and Role: Angular, ASP.NET Core, Kendo UI, Angular Material, HTML, CSS, SCSS, Bootstrap",
+            "Developing dynamic frontend views using Angular and integrating APIs with ASP.NET Core backend.",
+            "Enhancing user experience by implementing advanced property management features, owner and tenant functionalities, and CRM integrations.",
+            "Responsible for building responsive, user-friendly interfaces and ensuring seamless communication between users and the backend."
+        ]
+    },
+    {
+        "Tab": "eSoftage",
+        "Title": "Full Stack Developer (Angular + ASP.NET Core)",
+        "Date": "01-11-2023 to 01-08-2024",
+        "Logo": "assets/logos/esof.PNG",
+        "Website": "https://www.esoftage.com/#/",  
+        "Description": [
+            "Bizmate ERP (under developed U.S client Software):",
+            "Technology Used and Role: Angular, ASP.NET Core, Kendo UI, Angular Material, HTML, CSS, Bootstrap",
+            "Making frontend view in Angular using above mentioned technologies",
+            "Making API integrations in Angular with ASP.NET backend",
+            "",
+            "eSoftage web (eSoftage portfolio website):",
+            "Technology Used and Role: Angular, ASP.NET Core, Angular Material, HTML, CSS, Bootstrap",
+            "Made changes in frontend view in Angular using above mentioned frameworks",
+            "Added few new features using above mentioned technologies"
+        ]
+    },
+    {
+        "Tab": "Softaxe",
+        "Title": "Full Stack Developer (Angular + ASP.NET Core)",
+        "Date": "01-02-2023 to 01-11-2023",
+        "Logo": "assets/logos/softaxe-logo.PNG",
+        "Website": "https://softaxe.com/",  
+        "Description": [
+            "Softaxe ERP Software (completely developed ERP software):",
+            "Technology Used and Role: Angular, ASP.NET Core, Angular Material, ngPrime, HTML, CSS, Bootstrap",
+            "Made frontend view in Angular using above mentioned technologies",
+            "Made frontend view in Angular at pos.softaxe.com:555",
+            "Making API in ASP.NET Core of Softaxe ERP",
+            "Reports: Made reports using Dev Express",
+            "Made stored procedures for reports in SQL Server",
+            "",
+            "Business Portfolio Site (https://www.softaxe.com):",
+            "Technology Used and Role: Angular, Angular Material, HTML, CSS, Bootstrap",
+            "Made changes in portfolio site of Softaxe using above mentioned technologies",
+            "",
+            "Travel Agency web (https://sleepy-engelbart-ab1a31.netlify.app/):",
+            "Made this website in collaboration with Ammar Younus (my fellow)",
+            "Used similar technologies as in above projects"
+        ]
+    }
+]
+,
     "FeatureProjects.Title": "Projects that I was a part of",
     "FeatureProjects.Projects": [
+        {
+            "Title": "CRM Property Management",
+            "Description": "A specialized web-based CRM solution for managing properties and client relationships. This system integrates advanced property management features with CRM functionalities, allowing users to track property listings, client interactions, and service requests. Built with a modern, responsive frontend and secure API integration, it enhances operational efficiency for property managers.",
+            "imgs": [
+                "assets/images/Crm/crm1.PNG",
+                "assets/images/Crm/crm2.PNG"
+            ],
+            "Technologies": [
+                "Angular",
+                "ng-zoro",
+                "Rxjs",
+                "Angular Material",
+                "SCSS",
+                "Bootstrap"
+            ]
+        },   
+        {
+            "Title": "Owner Portal",
+            "Description": "A dedicated portal for property owners to efficiently manage their property assets. This platform allows owners to view property details, track rental income, monitor tenant requests, and receive real-time updates on property status. Built with user-friendly interfaces and secure access, the portal streamlines communication between property owners and managers while offering insights through analytics and reports.",
+            "imgs": [
+                "assets/images/owner-portal/owner1.PNG",
+                "assets/images/owner-portal/owner2.PNG"
+            ],
+            "Technologies": [
+                "Angular",
+                "Rxjs",
+                "ng-zoro",
+                "Angular Material",
+                "SCSS",
+                "Bootstrap"
+            ]
+        },             
         {
             "Title": "Bizmate ERP",
             "Description": "A comprehensive ERP solution under development. This project involves creating robust frontend interfaces and seamless API integrations to enhance business operations.",
