@@ -51,14 +51,28 @@ export class HeaderComponent implements OnInit {
 
   }
 
-  scroll(el) {
-    if(document.getElementById(el)) {
-      document.getElementById(el).scrollIntoView({behavior: 'smooth'});
-    } else{
-      this.router.navigate(['/home']).then(()=> document.getElementById(el).scrollIntoView({behavior: 'smooth'}) );
+  scroll(el: string) {
+    const element = document.getElementById(el);
+    
+    // Check if the section exists
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      // Check if you're already on the home page
+      if (this.router.url !== '/home') {
+        // Navigate to home and then scroll
+        this.router.navigate(['/home']).then(() => {
+          const newElement = document.getElementById(el);
+          if (newElement) {
+            newElement.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      }
     }
-    this.responsiveMenuVisible=false;
+  
+    this.responsiveMenuVisible = false;
   }
+  
 
   downloadCV(){
    

@@ -17,9 +17,11 @@
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
             <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_certifications", "menu", "click")'>
-                <a ngbNavLink (click)='scroll("certifications")'><span class='nav-number'>04. </span> <span class="underline nav-text"> {{"Header.Item4" | translate}}</span></a>
-                <ng-template ngbNavContent>Second content</ng-template>
-            </li>
+                <a ngbNavLink (click)='scroll("certifications")'>
+                    <span class='nav-number'>04. </span>
+                    <span class="underline nav-text">{{"Header.Item4" | translate}}</span>
+                </a>
+            </li>            
             <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
                 <a ngbNavLink (click)='scroll("contact")'><span class='nav-number'>05. </span> <span class="underline nav-text"> {{"Header.Item5" | translate}}</span></a>
                 <ng-template ngbNavContent>Second content</ng-template>

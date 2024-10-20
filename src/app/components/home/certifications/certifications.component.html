@@ -1,0 +1,19 @@
+<section id="certifications" class="section certifications-section">
+  <div class="container">
+    <h3 class="section-title">
+      <span class='n-section-title'>04.</span> {{ 'Certifications.Title' | translate }}
+    </h3>
+    <div class="row">
+      <div *ngFor='let cert of "Certifications.Items" | translate' class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="cert-card" data-aos="fade-up">
+          <img [src]="cert.CertificatePath" class="cert-img img-fluid" alt="{{ cert.Title }}">
+          <div class="cert-content">
+            <h5 class="cert-title">{{ cert.Title }}</h5>
+            <p class="cert-institute">{{ cert.Institute }}</p>
+            <p class="cert-description">{{ cert.Description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

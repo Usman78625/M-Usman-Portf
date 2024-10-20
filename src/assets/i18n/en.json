@@ -227,31 +227,19 @@
             "Title": "Certified Angular Developer",
             "Institute": "Data Flair",
             "Description": "A comprehensive course covering advanced Angular topics and best practices.",
-            "CertificatePath": "assets/images/certificates/angular_cert.png"
-        },
-        {
-            "Title": "Certified Web Developer",
-            "Institute": "Data Flair",
-            "Description": "An intensive program focusing on full-stack development with hands-on projects.",
-            "CertificatePath": "assets/images/certificates/web_dev_cert.png"
-        },
-        {
-            "Title": "Certified HTML & CSS Developer",
-            "Institute": "Data Flair",
-            "Description": "A course dedicated to mastering HTML and CSS for modern web development.",
-            "CertificatePath": "assets/images/certificates/html_css_cert.png"
-        },
-        {
-            "Title": "Certified JavaScript Developer",
-            "Institute": "Data Flair",
-            "Description": "A detailed course on JavaScript, covering ES6+ features and best practices.",
-            "CertificatePath": "assets/images/certificates/js_cert.png"
+            "CertificatePath": "assets/images/ang.PNG"
         },
         {
             "Title": "Certified C# Developer",
             "Institute": "Data Flair",
             "Description": "An in-depth course on C# programming and .NET development.",
-            "CertificatePath": "assets/images/certificates/csharp_cert.png"
+            "CertificatePath": "assets/images/c-sharp.PNG"
+        },
+        {
+            "Title": "Certified SQL Developer",
+            "Institute": "Data Flair",
+            "Description": "An in-depth course on SQL server and .NET development.",
+            "CertificatePath": "assets/images/sql-cert.PNG"
         }
     ],
     "Contact.Pretitle": "What’s Next",

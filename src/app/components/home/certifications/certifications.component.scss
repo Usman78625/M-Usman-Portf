@@ -1,0 +1,48 @@
+.cert-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 15px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background-color: #1b1b1b; /* For dark theme */
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.cert-img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.cert-content {
+  text-align: center;
+}
+
+.cert-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.cert-institute {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.cert-description {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Responsive breakpoints to ensure cards are shown properly */
+@media (min-width: 768px) {
+  .col-md-6 {
+    display: flex;
+    justify-content: center;
+  }
+}

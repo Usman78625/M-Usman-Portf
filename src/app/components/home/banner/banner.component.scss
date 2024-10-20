@@ -4,62 +4,129 @@
     min-height: 100vh;
 
     .container {
-        display: table;
-        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
         .section-box-banner {
-            display: table-cell;
-            vertical-align: middle;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
 
             .content {
                 margin-top: 98px;
+
+                h1 {
+                    color: #64ffda;
+                    margin: 0 0 20px 3px;
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-family: $CodeFont;
+                }
+
+                h2,
+                h3 {
+                    font-weight: 600;
+                    font-size: 80px;
+                    line-height: 1.1;
+                    margin: 0;
+                    font-family: $MainFont;
+                    background: linear-gradient(120deg, #50efb5, #8ff4ca, #7e57c2, #0087f2, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+                    color: #fff;
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+
+                .banner-description {
+                    margin-bottom: 70px;
+                }
+
+                p {
+                    max-width: 500px;
+                }
+
+                .div-btn-banner {
+                    height: 43px;
+                }
             }
 
-            h1 {
-
-                color: #64ffda;
-                margin: 0 0 20px 3px;
-                font-size: 16px;
-                font-weight: normal;
-                font-family: $CodeFont;
-            }
-
-            h2,
-            h3 {
-                font-weight: 600;
-                font-size: 80px;
-                line-height: 1.1;
-                margin: 0;
-                font-family: $MainFont;
-                background: linear-gradient(120deg, #50efb5, #8ff4ca, #7e57c2, #0087f2, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
-                color: #fff;
-                background-clip: text;
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-            }
-
-            h2 {
-                color: $LightestSlate;
-            }
-
-            h3 {
-                color: $Slate;
-            }
-
-            .banner-description {
-                margin-bottom: 70px;
-            }
-
-            p {
-                max-width: 500px;
-            }
-
-            .div-btn-banner {
-                height: 43px;
+            // Profile Image Styling
+            .banner-image {
+                margin-left: 90px;
+                img {
+                    max-width: 50%;  // Ensure the image takes up to 50% of the container width
+                    height: auto;  // Let the height adjust automatically
+                    border-radius: 50%;  // Keep the circular shape
+                    object-fit: cover;  // Ensures the image fits inside the circular frame properly
+                    border: 5px solid #64ffda;  // Optional: Border for the image
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  // Optional: Box shadow
+                    margin-left: 100px;  // Original margin left
+                }
             }
         }
+    }
 
+    // Media query for smaller screens
+    @media screen and (max-width: 768px) {
+        .container {
+            flex-direction: column;  // Stack content and image vertically on smaller screens
+            align-items: center;
+            padding-top: 80px; // Add padding to prevent overlap with the navbar
 
+            .section-box-banner {
+                flex-direction: column-reverse;  // Move the image above the content
+                align-items: center;
+
+                .content {
+                    h2,
+                    h3 {
+                        font-size: 50px;  // Reduce text size for smaller screens
+                    }
+                }
+
+                .banner-image {
+                    margin-left: 0;
+                    margin-top: 30px;  // Add some space between the image and text
+                    img {
+                        max-width: 200px;  // Larger size for the image on smaller screens
+                        height: 170px; // Ensure the image is large enough to be visible
+                        margin-left: 0;  // Remove left margin on smaller screens
+                    }
+                }
+            }
+        }
+    }
+
+    // Media query for very small screens (mobile)
+    @media screen and (max-width: 480px) {
+        .container {
+            flex-direction: column;
+            align-items: center;
+            padding-top: 100px; // Add padding to prevent overlap with the navbar
+
+            .section-box-banner {
+                flex-direction: column-reverse;
+                align-items: center;
+
+                .content {
+                    h2,
+                    h3 {
+                        font-size: 40px;  // Further reduce the text size for smaller mobile screens
+                    }
+                }
+
+                .banner-image {
+                    margin-left: 0;
+                    margin-top: 30px;
+                    img {
+                        max-width: 180px;  // Slightly smaller size on very small screens
+                        height: 150px;
+                        margin-left: 0;  // Remove left margin
+                    }
+                }
+            }
+        }
     }
 }
-

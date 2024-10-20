@@ -3,7 +3,6 @@
         <div class="section-box-banner">
             <div class="content">
                 <div>
-                    <!-- <h1>Hola, mi nombre es</h1> -->
                     <h1>Hello! My name is</h1>
                 </div>
                 <div class='banner-title'>
@@ -13,13 +12,16 @@
                 <div class='banner-description'>
                     <p [innerHTML]='"Banner.Description" | translate' class="mt-4"></p>
                 </div>
+                <div class="div-btn-banner">
+                    <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")' href="mailto:usman30744@gmail.com" target="_black" class="main-btn">
+                        {{"Banner.ActionBtn" | translate}}
+                    </a>
+                </div>
             </div>
-            <div class="div-btn-banner">
-                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")' href="mailto:usman30744@gmail.com" target="_black" class="main-btn">
-                    {{"Banner.ActionBtn" | translate}}
-                </a>
+            <!-- Profile Image on the Right -->
+            <div class="banner-image">
+                <img src="/assets/images/pf-2.jpg" alt="Profile Picture">
             </div>
         </div>
     </div>
 </section>
-
